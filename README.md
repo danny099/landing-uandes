@@ -16,7 +16,7 @@ Luego abrir el archivo index.html para ver el landig page
 
 ## Demo 🚀
 puedes probar una demo del sitio en el siguiente link:
-[Ver Demo]()
+[Ver Demo](https://danny099.github.io/landing-uandes/)
 
 ## Author ✒️
 Danny Martinez - [Github](https://github.com/danny099) / [Twitter](https://twitter.com/dalmariv01)
