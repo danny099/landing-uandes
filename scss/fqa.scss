@@ -1,0 +1,30 @@
+#fqa {
+  background: $gray;
+}
+
+.text-red{
+  color: $red;
+}
+
+#fqa h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+#fqa h1 span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  background-color: $red;
+  color: white;
+}
+
+#fqa button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+#fqa a{
+  color: $red;
+}

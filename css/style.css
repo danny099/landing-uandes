@@ -1,0 +1,402 @@
+@charset "UTF-8";
+.navbar {
+  background-color: #E00D34 !important;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.nav-link:active {
+  color: #FFFFFF !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-bottom: 3px solid white;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #FFFFFF !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-bottom: 3px solid white;
+  font-size: 16px;
+}
+
+#header img {
+  width: 157px;
+  height: 62px;
+}
+
+.nav-item {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.fa-facebook-f:before {
+  content: "";
+}
+
+.redes a {
+  width: 2.7rem;
+  height: 2.7rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.redes {
+  margin-top: 4px;
+  display: flex;
+}
+
+#main .carousel-inner img {
+  max-height: 65vh;
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#asesoramiento {
+  background-image: linear-gradient(#E00034, #70071A);
+}
+
+.foto-asesoramiento {
+  height: 100%;
+  width: 100%;
+}
+
+.font-white {
+  color: white;
+}
+
+.font-yellow {
+  color: #FABA17;
+}
+
+#asesoramiento h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+#asesoramiento h1 span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  background-color: #37424A;
+  color: white;
+}
+
+#horarios {
+  background: url("../assets/images/horarios-background.png");
+}
+
+.horaiosInfo {
+  color: #FABA17;
+}
+
+.horaiosInfo:hover {
+  color: #FABA17;
+  cursor: pointer;
+}
+
+#informacion {
+  background: url("../assets/images/informacion-background.png");
+}
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  color: #E00D34;
+}
+
+.accordion:after {
+  content: "+";
+  color: #E00D34;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#fqa .active:after {
+  content: "−";
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#fqa {
+  background: #F0F0F0;
+}
+
+.text-red {
+  color: #E00D34;
+}
+
+#fqa h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+#fqa h1 span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  background-color: #E00D34;
+  color: white;
+}
+
+#fqa button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+#fqa a {
+  color: #E00D34;
+}
+
+#carreras h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+#carreras h1 span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  background-color: #E00D34;
+  color: white;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 1.4rem;
+}
+
+.tab b {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: #E00D34 5px solid;
+  color: #E00D34;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+#carreras {
+  background: #F0F0F0;
+}
+
+table {
+  border: 1px ridge #D1D1D1;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border-bottom: 1px ridge #D1D1D1;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 3px;
+  font-size: 14px;
+}
+
+th {
+  background: #E03F02;
+}
+
+th b {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-gray {
+  background-color: #F8F8F8;
+  line-height: 100%;
+}
+
+.horariosViernes table {
+  border: 1px solid #D1D1D1;
+  border-collapse: collapse;
+}
+
+.horariosJueves table, td, th {
+  border-bottom: 1px solid #D1D1D1;
+  border-right: 1px solid #D1D1D1;
+  border-collapse: collapse;
+}
+
+.horariosJueves td, th {
+  padding: 3px;
+  font-size: 14px;
+}
+
+.horariosJueves th {
+  background-color: #F3B89B;
+}
+
+.horariosViernes table {
+  border: 1px solid #D1D1D1;
+  border-collapse: collapse;
+}
+
+.horariosViernes table, td, th {
+  border-bottom: 1px solid #D1D1D1;
+  border-collapse: collapse;
+}
+
+.horariosViernes td, th {
+  padding: 3px;
+  font-size: 14px;
+}
+
+.horariosViernes th {
+  background-color: #FDE3A2;
+}
+
+.bg-yellow {
+  background-color: #FFF8E8;
+}
+
+.bg-pink {
+  background-color: #FCECE6;
+}
+
+#Puntaje h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+#Puntaje h1 span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  background-color: #E00D34;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  #Puntaje {
+    background: url("../assets/images/puntaje-background.png") no-repeat;
+    background-position: right;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p, em, a {
+  font-size: 1.6rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+.btn {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.tittle {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hideme {
+  opacity: 0;
+}
+
+#footer {
+  background: #37424A;
+  border-top: 9px solid #2B343B;
+}
+
+#footer p {
+  color: #A7ADB7;
+}
+
+#footer p a {
+  color: #A7ADB7;
+}
+
+/*# sourceMappingURL=style.css.map */

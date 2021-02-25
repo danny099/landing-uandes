@@ -1,0 +1,30 @@
+#carreras {
+  background: $gray;
+}
+table {
+	border: 1px ridge #D1D1D1;
+	border-collapse: collapse;
+}
+table , td, th {
+	border-bottom: 1px ridge #D1D1D1;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+  font-size: 14px;
+}
+th {
+	background: #E03F02;
+
+}
+
+th b {
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.bg-gray {
+  background-color: #F8F8F8;
+  line-height: 100%;
+}

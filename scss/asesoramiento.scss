@@ -1,0 +1,30 @@
+#asesoramiento {
+  background-image: linear-gradient(#E00034, #70071A);
+}
+
+.foto-asesoramiento {
+  height: 100%;
+  width: 100%;
+}
+
+.font-white{
+  color: white;
+}
+
+.font-yellow{
+  color: $yellow;
+}
+
+#asesoramiento h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+#asesoramiento h1 span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.2rem;
+  background-color: #37424A;
+  color: white;
+}
