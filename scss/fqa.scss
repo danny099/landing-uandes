@@ -6,6 +6,15 @@
   color: $red;
 }
 
+#fqa button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+#fqa a{
+  color: $red;
+}
+
 #fqa h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -20,11 +29,18 @@
   color: white;
 }
 
-#fqa button{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
-}
+@media only screen and (min-width: 600px) {
+  #fqa h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.6rem;
+  }
 
-#fqa a{
-  color: $red;
+  #fqa h1 span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.6rem;
+    background-color: $red;
+    color: white;
+  }
 }

@@ -10,3 +10,19 @@
   color: $yellow;
   cursor: pointer;
 }
+
+#horarios h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+
+@media only screen and (min-width: 600px) {
+  #horarios h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.2rem;
+  }
+
+}

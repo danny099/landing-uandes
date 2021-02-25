@@ -18,13 +18,29 @@
 #asesoramiento h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
 }
 
 #asesoramiento h1 span {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   background-color: #37424A;
   color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  #asesoramiento h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4.2rem;
+  }
+
+  #asesoramiento h1 span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4.2rem;
+    background-color: #37424A;
+    color: white;
+  }
 }

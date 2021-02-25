@@ -1,13 +1,13 @@
 #Puntaje h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
 }
 
 #Puntaje h1 span {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   background-color: $red;
   color: white;
 }
@@ -16,5 +16,18 @@
   #Puntaje {
     background: url('../assets/images/puntaje-background.png') no-repeat;
     background-position: right;
+  }
+  #Puntaje h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4.2rem;
+  }
+
+  #Puntaje h1 span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 4.2rem;
+    background-color: $red;
+    color: white;
   }
 }
